@@ -1,4 +1,4 @@
-#Projeto: Test Connection Server
+﻿#Projeto: Test Connection Server
 =================================
 
 Projeto final da disciplina desenvolvimento web, consiste na implementação de uma página com sistema de login e autenticação em banco
@@ -22,17 +22,17 @@ Para que a página funcione se faz necessário a modificação de alguns arquivo
   - coluna 2 =  nome ( do tipo VARCHAR e tamanho 100 )
   - coluna 3 = senha ( DO TIPO varchar e tamanho 100 )
 
-- variaveis.php
+- ARQUIVO= variaveis.php
   - Para esse arquivo se faz necessário a modificação dos seguintes parâmetros:
       
-       $home		="http://localhost/projects/projetofinal/"; ( é necessário colocar o diretório raiz onde vc salvou
-                                                             os arquivos do github)
-       $AUT['servidor'] = 'localhost';    // Servidor MySQL
-       $AUT['usuario'] = 'root';          // Usuário MySQL
-       $AUT['senha'] = '';                // Senha MySQL
-       $AUT['banco'] = 'dw';			   // Banco de dados MySQL
-       $AUT['paginaLogin'] = $home.'?p=login'; // Página de login
-       $AUT['tabela'] = 'cliente';       // Nome da tabela onde os usuários são salvos
+       - $home		="http://localhost/projects/projetofinal/"; ( é necessário colocar o diretório raiz onde vc salvou
+                                                                     os arquivos do github)
+       - $AUT['servidor'] = 'localhost';    // Servidor MySQL
+       - $AUT['usuario'] = 'root';          // Usuário MySQL
+       - $AUT['senha'] = '';                // Senha MySQL
+       - $AUT['banco'] = 'dw';			   // Banco de dados MySQL
+       - $AUT['paginaLogin'] = $home.'?p=login'; // Página de login
+       - $AUT['tabela'] = 'cliente';       // Nome da tabela onde os usuários são salvos
        
 Feita essas configurações, já será possivel usar a pagina e todas as suas funcionalidades.
        
