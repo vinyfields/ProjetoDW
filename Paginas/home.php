@@ -1,11 +1,59 @@
-O Projeto de DW possui tema livre em gerenciamento e monitoramento em redes mas será cobrado 9 itens:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		
+		body{
+			text-align: left;
+		}
 
--Página com estilo; -jQuery com plugin; -uso de $_GET e $_POST; -uso de $_COOKIE e $_SESSION; -Banco de dados; -Renderização de algum JSON através de alguma Web API (Veja este exemplo de consumo de JSON via a API do vagalume http://api.vagalume.com.br/docs/artistas/. E depois tente criar sua Web API através do PHP. Se inspirar em Web API nestes repositórios: https://www.mashape.com/explore e http://www.programmableweb.com/apis/directory);
+	</style>
+</head>
+<body>
+<h1>Projeto: Test Connection Server</h1>
+</br>
+</br>
+</br>
+<h3>IFPB - Tecnologia em Redes de Computadores</h3>
+<h3>Equipe: Alexandro Ferreira da Silva & Vinicius Campos da Silva</h3>
+</br>
+</br>
+</br>
+</br>
+</br>
+Projeto final da disciplina desenvolvimento web, consiste na implementação de uma página com sistema de login e autenticação em banco de dados e uma ferramenta de teste de conexão onde é possivel fazer uma requisição via ip para um servidor, e retornar a informação se ele está online ou offline.
+</p>
 
-Será considerado pontuação extra uso de:
+<!--<h1>Instalação</h1>
 
--Algum framework inédito ou biblioteca inédita; -Integração do script puphpet com o código de seu projeto a ponto de facilitar sua execução com o git clone e vagrant up; -Hospedagem do projeto em algum repositório.
 
-E a pontuação pode ser penalizada mediante a falta de: -Organização do código; -Documentação do projeto: integrantes, procedimento de instalação, bibliotecas utilizadas...; -Domínio no conteúdo; -Fuga do tema de redes ou qualquer critério pré-estabelecido;
+Para o funcionamento correto da página, é necessário ter instalado em sua maquina as seguintes aplicações:
+PHP + MySQL + Apache ( no nosso caso usamos o easyPHP, software que contem todas essas aplicações
+Browser atualzado ( chrome, firefox, etc)
+--Para que a página funcione se faz necessário a modificação de alguns arquivos, listados abaixo:
 
-Por fim, a entrega do projeto será feito no github juntamente com uma apresentação individual de cada membro demonstrando suas implementações.
+É preciso criar um banco de dados com:
+
+Nome do banco = dw
+tabela = cliente
+coluna 1 = id ( do tipo INT e auto-incrementável e PRIMARY)
+coluna 2 = nome ( do tipo VARCHAR e tamanho 100 )
+coluna 3 = senha ( DO TIPO varchar e tamanho 100 )
+ARQUIVO= variaveis.php
+
+Para esse arquivo se faz necessário a modificação dos seguintes parâmetros:
+
+$home ="http://localhost/projects/projetofinal/"; ( é necessário colocar o diretório raiz onde vc salvou os arquivos do github)
+$AUT['servidor'] = 'localhost'; // Servidor MySQL
+$AUT['usuario'] = 'root'; // Usuário MySQL
+$AUT['senha'] = ''; // Senha MySQL
+$AUT['banco'] = 'dw'; // Banco de dados MySQL
+$AUT['paginaLogin'] = $home.'?p=login'; // Página de login
+$AUT['tabela'] = 'cliente'; // Nome da tabela onde os usuários são salvos
+Feita essas configurações, já será possivel usar a pagina e todas as suas funcionalidades.
+</p>-->
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</body>
+</html>
