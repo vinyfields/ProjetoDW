@@ -13,14 +13,14 @@ Para o funcionamento correto da página, é necessário ter instalado em sua maq
 - PHP + MySQL + Apache ( no nosso caso usamos o easyPHP, software que contem todas essas aplicações
 - Browser atualzado ( chrome, firefox, etc)
 
-Para que a página funcione se faz necessário a modificação de alguns arquivos, listados abaixo:
-É prciso criar um banco de dados com: 
+--Para que a página funcione se faz necessário a modificação de alguns arquivos, listados abaixo:
+  - É prciso criar um banco de dados com: 
   
-  - Nome do banco = dw
-  - tabela = cliente
-  - coluna 1 = id ( do tipo INT e auto-incrementável e PRIMARY)
-  - coluna 2 =  nome ( do tipo VARCHAR e tamanho 100 )
-  - coluna 3 = senha ( DO TIPO varchar e tamanho 100 )
+  	- Nome do banco = dw
+  	- tabela = cliente
+  	- coluna 1 = id ( do tipo INT e auto-incrementável e PRIMARY)
+  	- coluna 2 =  nome ( do tipo VARCHAR e tamanho 100 )
+  	- coluna 3 = senha ( DO TIPO varchar e tamanho 100 )
 
 - ARQUIVO= variaveis.php
   - Para esse arquivo se faz necessário a modificação dos seguintes parâmetros:
